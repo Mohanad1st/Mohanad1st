@@ -15,7 +15,7 @@ organisations actually run on.
 - **Bilingual (EN/AR) products.** Arabic and RTL as a first-class requirement, not a translation pass.
 - **Evidence and evaluation.** Two randomised evaluations with [J-PAL
   MENA](https://www.povertyactionlab.org/blog/11-16-23/20-20-life-waters-evidence-based-journey-egypt);
-  teaching AI governance and responsible AI to 25,000+ learners.
+  teaching AI governance and responsible AI to 27,000+ learners.
 
 **Things you can open right now**
 
