@@ -28,12 +28,11 @@ organisations actually run on.
 
 **On the empty-looking contribution graph**
 
-Most of what I build lives in private repositories — NGO payroll and HR, client work, multi-tenant
-operations software handling real money and personal data. That work isn't public and shouldn't be.
-What's here is the small public slice.
+Most of what I build lives in private repositories — internal systems for NGOs and clients. That work
+isn't public and shouldn't be. What's here is the small public slice.
 
 I build with coding agents, and I own the problem definition, the architecture, the threat model and the
 verification. If something I've written is worth discussing, I can explain every design decision in it
 without the agent in the room.
 
-Reach me at mohannad@lifefromwater.org · [LinkedIn](https://www.linkedin.com/in/mohannadhesham/)
+Reach me via [LinkedIn](https://www.linkedin.com/in/mohannadhesham/) or [lifefromwater.org](https://lifefromwater.org).
