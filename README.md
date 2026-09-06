@@ -25,6 +25,8 @@ organisations actually run on.
 | [lifefromwater.org](https://lifefromwater.org) | Life From Water — bilingual donation platform |
 | [Impact Anchor](https://www.impact-anchor-ai.com) | AI and evidence advisory for mission-driven organisations |
 | [Mohandes AI](https://mohandes-ai.com) | Practical AI for Arabic-speaking engineers |
+| [mindkata-gate0](https://github.com/Mohanad1st/mindkata-gate0) | Governance you can execute, literally: a scope lock a build checks. 61 lines of CI that fail the build when an agent drifts outside approved scope — with the ADRs, threat model and data classification behind it. |
+| [motion-study](https://github.com/Mohanad1st/motion-study) | Video-based motion and time study for assembly and fabrication lines. Every comparable tool is commercial; this one is Apache-2.0. [Live demo report](https://motion-study-demo.vercel.app). |
 
 **On the empty-looking contribution graph**
 
