@@ -9,9 +9,9 @@ organisations actually run on.
 
 - **Governance you can execute.** Turning what an auditor asks for into permission checks, audit trails,
   and negative-case tests — the kind that fail loudly when a safeguard isn't really enforced.
-- **AI in operations, with a person in the loop.** Systems where a model proposes and a named human
-  confirms, permissions are re-checked at the moment of execution, and the consequential write is
-  attributed to whoever approved it.
+- **AI in operations, with a person in the loop.** Systems where a model proposes and a person
+  confirms, permissions are re-checked at the moment of execution, and nothing consequential is
+  written without that confirmation.
 - **Bilingual (EN/AR) products.** Arabic and RTL as a first-class requirement, not a translation pass.
 - **Evidence and evaluation.** Two randomised evaluations with [J-PAL
   MENA](https://www.povertyactionlab.org/blog/11-16-23/20-20-life-waters-evidence-based-journey-egypt);
