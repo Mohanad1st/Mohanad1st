@@ -21,8 +21,7 @@ organisations actually run on.
 
 | | |
 |---|---|
-| [AI Governance Roadmap OS](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) | Free bilingual course — 8 stops, 39 lessons, four decision tools. NIST AI RMF, ISO 42001, EU AI Act, OWASP. Relaunching; the case study shows the current version. |
-| [lifefromwater.org](https://lifefromwater.org) | Life From Water — bilingual donation platform |
+| [lifefromwater.org](https://lifefromwater.org) | Life From Water — the NGO |
 | [Impact Anchor](https://www.impact-anchor-ai.com) | AI and evidence advisory for mission-driven organisations |
 | [Mohandes AI](https://mohandes-ai.com) | Practical AI for Arabic-speaking engineers |
 | [mindkata-gate0](https://github.com/Mohanad1st/mindkata-gate0) | Governance you can execute, literally: a scope lock a build checks. 61 lines of CI that fail the build when an agent drifts outside approved scope — with the ADRs, threat model and data classification behind it. [Try the prototype](https://mindkata-gate0.vercel.app). |
@@ -30,29 +29,29 @@ organisations actually run on.
 
 **Private work, shown as case studies**
 
-These systems run real operations, so their code stays private. Each case study below explains the
-problem, what the system does, how it is built responsibly and what it deliberately doesn't do — with
-demo-data screens or a flow diagram, and no code.
+Their code stays private: some run real operations, some hold personal or financial data, some are still
+being built. Each case study explains the problem, what the system does, how it is built responsibly and
+what it deliberately doesn't do — with demo-data screens or a flow diagram, and no code.
 
-| | |
-|---|---|
-| **Life From Water** | |
-| [Life From Water donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase) | Donations and impact you can check, with a public map of every funded site |
-| [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) | Attendance, leave, overtime and approvals for a field NGO — in production |
-| [Ameen](https://github.com/Mohanad1st/ameen-showcase) | A finance desk you talk to, with hard rules that keep donation money where it belongs |
-| [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) | An evidence-first pipeline for grants, fellowships and tenders |
-| **Impact Anchor** | |
-| [Impact Anchor site](https://github.com/Mohanad1st/impact-anchor-site-showcase) | Bilingual consulting site with a content-grounded assistant |
-| [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) | White-label, bilingual, offline-ready platform for workshops |
-| [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) | The free course, from first definitions to a governance plan |
-| [ImpactAnchor Reels](https://github.com/Mohanad1st/impactanchor-reels-showcase) | Recorded sessions in; scored, bilingual short videos scheduled out |
-| [Network Intelligence](https://github.com/Mohanad1st/network-intelligence-showcase) | Relationships and content in one self-hosted workspace, human-approved |
-| **Mohandes AI** | |
-| [Dr. Water OS](https://github.com/Mohanad1st/dr-water-os-showcase) | Daily operations for water treatment plants — in paid pilot |
-| [Mohandes AI](https://github.com/Mohanad1st/mohandes-ai-showcase) | Applied AI for technical teams in MENA |
-| **Independent** | |
-| [GrantsAI](https://github.com/Mohanad1st/grantsai-showcase) | Find, judge and draft grant applications, for small NGOs |
-| [FPL War Room](https://github.com/Mohanad1st/fpl-war-room-showcase) | A side project: one number-backed weekly decision instead of a dozen opinions |
+| Project | What it is | Status |
+|---|---|---|
+| **Life From Water** | | |
+| [Ameen](https://github.com/Mohanad1st/ameen-showcase) | A finance desk you talk to, built to stop donation money being misfiled | Internal pilot |
+| [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) | Attendance, leave, overtime and approvals for a field NGO, in Arabic and English | In production use |
+| [Life From Water — donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase) | Donations and impact you can check, for a water-access NGO in rural Egypt | Prototype live · donations switched on at launch |
+| [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) | An evidence-first pipeline for grants, fellowships and tenders | In active internal use |
+| **Impact Anchor** | | |
+| [ImpactAnchor Reels](https://github.com/Mohanad1st/impactanchor-reels-showcase) | Recorded sessions in; scored, subtitled, scheduled short videos out | In weekly use |
+| [Impact Anchor — consulting site](https://github.com/Mohanad1st/impact-anchor-site-showcase) | From AI overwhelm to a working adoption plan, for mission-driven teams | Live · final updates in progress |
+| [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) | A free, bilingual course that takes you from first definitions to a governance plan | Relaunching |
+| [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) | Interactive, bilingual, offline-ready learning for workshops and training programmes | Live demo · ready to deploy per client |
+| [Network Intelligence](https://github.com/Mohanad1st/network-intelligence-showcase) | Relationships, opportunities and content in one self-hosted workspace | Pilot, self-hosted |
+| **Mohandes AI** | | |
+| [Dr. Water OS](https://github.com/Mohanad1st/dr-water-os-showcase) | Daily operations for water treatment plants, in one bilingual system | Paid pilot with water treatment companies |
+| [Mohandes AI](https://github.com/Mohanad1st/mohandes-ai-showcase) | Applied AI for technical teams in MENA — starting with water treatment | Live |
+| **Independent** | | |
+| [GrantsAI](https://github.com/Mohanad1st/grantsai-showcase) | Find, judge and draft grant applications faster, for small NGOs | In development |
+| [FPL War Room](https://github.com/Mohanad1st/fpl-war-room-showcase) | Six YouTubers and five blogs replaced by one number-backed weekly decision | In weekly use, private |
 
 **On the empty-looking contribution graph**
 
