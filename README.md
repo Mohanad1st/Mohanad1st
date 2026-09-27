@@ -1,65 +1,96 @@
 ## Mohannad Hesham Abouelrouse
 
-I work at the point where AI governance stops being a policy document and becomes something you can
-test. Founder and CEO of [Life From Water](https://lifefromwater.org), an Egyptian NGO working on water
-access and climate resilience; Ashoka Fellow; MBA. I also build the internal systems those
-organisations actually run on.
+Founder and CEO of [Life From Water](https://lifefromwater.net), an Egyptian NGO working on water
+access and climate resilience. I teach and build practical AI governance for Arabic-speaking
+organisations: safeguards written as checks a system has to pass, not only as policy. One worked
+example is [mindkata-gate0](https://github.com/Mohanad1st/mindkata-gate0).
 
-**What I spend my time on**
+<p dir="rtl" lang="ar">أعمل حيث تتحوّل حوكمة الذكاء الاصطناعي من وثيقة سياسات إلى ضوابط يمكن اختبارها. أدير مؤسسة «ومن الماء حياة» في مصر، وأدرّب وأبني بالعربية والإنجليزية.</p>
 
-- **Governance you can execute.** Turning what an auditor asks for into permission checks, audit trails,
-  and negative-case tests — the kind that fail loudly when a safeguard isn't really enforced.
-- **AI in operations, with a person in the loop.** Systems where a model proposes and a person
-  confirms, permissions are re-checked at the moment of execution, and nothing consequential is
-  written without that confirmation.
-- **Bilingual (EN/AR) products.** Arabic and RTL as a first-class requirement, not a translation pass.
-- **Evidence and evaluation.** Two randomised evaluations with [J-PAL
-  MENA](https://www.povertyactionlab.org/blog/11-16-23/20-20-life-waters-evidence-based-journey-egypt);
-  teaching AI governance and responsible AI to 27,000+ learners.
+### Evidence
 
-**Things you can open right now**
+- **Field work.** Life From Water started in 2011 and was registered in Egypt in 2014 (no. 9575/2014).
+  It has delivered 3,105 water interventions, 79 of them treatment stations, across 259 villages in
+  eight governorates, reaching 1,005,072 people.
+- **Evaluation.** Life From Water has been the implementing NGO for randomised evaluations run by
+  academic teams, including a household water-treatment study with
+  [J-PAL MENA](https://www.povertyactionlab.org/blog/11-16-23/20-20-life-waters-evidence-based-journey-egypt)
+  ([trial registration](https://www.socialscienceregistry.org/trials/9944)).
+- **Teaching.** 27,000+ learners across published AI courses and live cohorts. I co-developed and
+  taught AI for Palestine: 18 live sessions, 100 participants and 15 graduation projects
+  (self-reported). Training engagements are listed on [mohannadhesham.com](https://mohannadhesham.com).
+- **Network.** [Ashoka Fellow](https://www.ashoka.org/en-us/fellow/mohannad-hesham). Attended the 4th
+  UNESCO Global Forum on the Ethics of AI, Riyadh, September 2026.
 
-| | |
-|---|---|
-| [lifefromwater.org](https://lifefromwater.org) | Life From Water — the NGO |
-| [Impact Anchor](https://www.impact-anchor-ai.com) | AI and evidence advisory for mission-driven organisations |
-| [Mohandes AI](https://mohandes-ai.com) | Applied AI for technical teams in MENA — starting with water treatment |
-| [mindkata-gate0](https://github.com/Mohanad1st/mindkata-gate0) | Governance you can execute, literally: a scope lock a build checks. 61 lines of CI that fail the build when an agent drifts outside approved scope — with the ADRs, threat model and data classification behind it. [Try the prototype](https://mindkata-gate0.vercel.app). |
-| [motion-study](https://github.com/Mohanad1st/motion-study) | Video-based motion and time study for assembly and fabrication lines. Every comparable tool is commercial; this one is Apache-2.0. [Live demo report](https://motion-study-demo.vercel.app). |
+### AI risk and capacity building
 
-**Private work, shown as case studies**
+- **Agent oversight in practice.** mindkata-gate0 fails the build if a coding agent adds an unapproved
+  dependency, directory, mission or model-API import: 61 lines of Node that CI runs. It checks
+  specific patterns; its known bypasses are written down in the repository.
+- **Teaching in Arabic.** The courses and cohorts above, and a free governance course that is built
+  but not yet public. It covers risks from AI agents inside organisations, not catastrophic risk.
 
-Their code stays private: some run real operations, some hold personal or financial data, some are still
-being built. Each case study explains the problem, what the system does, how it is built responsibly and
-what it deliberately doesn't do — with demo-data screens or a flow diagram, and no code.
+### How the safeguards map to the UNESCO principles
 
-| Project | What it is | Status |
-|---|---|---|
-| **Life From Water** | | |
-| [Ameen](https://github.com/Mohanad1st/ameen-showcase) | A finance desk you talk to, built to stop donation money being misfiled | Internal pilot |
-| [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) | Attendance, leave, overtime and approvals for a field NGO, in Arabic and English | In production use |
-| [Life From Water — donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase) | Donations and impact you can check, for a water-access NGO in rural Egypt | Prototype live · donations switched on at launch |
-| [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) | An evidence-first pipeline for grants, fellowships and tenders | In active internal use |
-| **Impact Anchor** | | |
-| [ImpactAnchor Reels](https://github.com/Mohanad1st/impactanchor-reels-showcase) | Recorded sessions in; scored, subtitled, scheduled short videos out | In weekly use |
-| [Impact Anchor — consulting site](https://github.com/Mohanad1st/impact-anchor-site-showcase) | From AI overwhelm to a working adoption plan, for mission-driven teams | Live · final updates in progress |
-| [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) | A free, bilingual course that takes you from first definitions to a governance plan | Relaunching |
-| [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) | Interactive, bilingual, offline-ready learning for workshops and training programmes | Live demo · ready to deploy per client |
-| [Network Intelligence](https://github.com/Mohanad1st/network-intelligence-showcase) | Relationships, opportunities and content in one self-hosted workspace | Pilot, self-hosted |
-| **Mohandes AI** | | |
-| [Dr. Water OS](https://github.com/Mohanad1st/dr-water-os-showcase) | Daily operations for water treatment plants, in one bilingual system | Paid pilot with water treatment companies |
-| [Mohandes AI](https://github.com/Mohanad1st/mohandes-ai-showcase) | Applied AI for technical teams in MENA — starting with water treatment | Live |
-| **Independent** | | |
-| [GrantsAI](https://github.com/Mohanad1st/grantsai-showcase) | Find, judge and draft grant applications faster, for small NGOs | In development |
-| [FPL War Room](https://github.com/Mohanad1st/fpl-war-room-showcase) | Six YouTubers and five blogs replaced by one number-backed weekly decision | In weekly use, private |
+- **Human oversight and determination:** nothing is written or submitted without a person confirming
+  it ([Ameen](https://github.com/Mohanad1st/ameen-showcase),
+  [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase)).
+- **Proportionality and do no harm:** [motion-study](https://github.com/Mohanad1st/motion-study)
+  measures operations and refuses to rate workers.
+- **Transparency and explainability:** every claim in a proposal traces to a source (Opportunity Studio).
+- **Privacy and data protection:** donor and personal data can only be written by the server, under
+  row-level security (the [donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase)).
+- **Responsibility and accountability:** audit logs of approvals
+  ([LFW HR](https://github.com/Mohanad1st/lfw-hr-system-showcase),
+  [Dr. Water OS](https://github.com/Mohanad1st/dr-water-os-showcase)).
 
-**On the empty-looking contribution graph**
+### Selected work
 
-Most of what I build lives in private repositories — internal systems for NGOs and clients. That work
-isn't public and shouldn't be. What's here is the public slice, plus the case studies above.
+Code you can read:
 
-I build with coding agents, and I own the problem definition, the architecture, the threat model and the
-verification. If something I've written is worth discussing, I can explain every design decision in it
-without the agent in the room.
+- **[mindkata-gate0](https://github.com/Mohanad1st/mindkata-gate0)**: a research-ethics scope lock a
+  build can check, with the decision records, threat model and data classification behind it.
+  [Prototype](https://mindkata-gate0.vercel.app).
+- **[motion-study](https://github.com/Mohanad1st/motion-study)**: video-based motion and time study
+  for assembly lines. Apache-2.0, where most comparable tools are commercial.
+  [Demo report](https://motion-study-demo.vercel.app).
 
-Reach me via [LinkedIn](https://www.linkedin.com/in/mohannadhesham/) or [lifefromwater.org](https://lifefromwater.org).
+Case studies of private systems (no code, demo data only):
+
+- **[AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase)**: a free
+  governance course from first definitions to a working plan. *Built, not yet public.*
+- **[Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase)**: a bilingual,
+  offline-ready platform for running training cohorts. *Live demo.*
+- **[LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase)**: attendance, leave and
+  approvals for a field NGO, in Arabic and English. *In production use.*
+- **[WaterEye](https://github.com/Mohanad1st/watereye-showcase)**: reading analogue water gauges from a
+  phone photo. *Field pilot in one village; accuracy not yet measured.*
+- **[Dr. Water OS](https://github.com/Mohanad1st/dr-water-os-showcase)**: daily operations for water
+  treatment plants. *Paid pilot.*
+- **[Life From Water donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase)**:
+  donations and a public impact map. *Prototype; donations switched on at launch.*
+
+<details>
+<summary>Other case studies</summary>
+
+- [Impact Anchor site](https://github.com/Mohanad1st/impact-anchor-site-showcase): my consulting practice's bilingual site
+- [Mohandes AI](https://github.com/Mohanad1st/mohandes-ai-showcase): applied AI for technical teams in MENA
+- [GrantsAI](https://github.com/Mohanad1st/grantsai-showcase): grant discovery and drafting for small NGOs, in development
+- [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase): an evidence-first pipeline for funding applications
+
+</details>
+
+### Working with partners
+
+I offer bilingual (Arabic and English) training on AI ethics and governance, help turning a
+governance framework into checks a team can run, and Life From Water as a field case study of AI in
+a small NGO. Contact me through [mohannadhesham.com](https://mohannadhesham.com) or
+[LinkedIn](https://www.linkedin.com/in/mohannadhesham/).
+
+### How I build
+
+Most of what I build lives in private repositories: internal systems for NGOs and clients. That work
+isn't public and shouldn't be; the case studies above describe it without the code. I build with coding
+agents, and I own the problem definition, the architecture, the threat model and the verification.
+If something I've written is worth discussing, I can explain every design decision in it without the
+agent in the room.
